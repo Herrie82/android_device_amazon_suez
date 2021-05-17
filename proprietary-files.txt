@@ -188,7 +188,6 @@ lib/libvp9dec_sa.ca7.so:vendor/lib/libvp9dec_sa.ca7.so
 lib/libwebrtc_audio_preprocessing.so:vendor/lib/libwebrtc_audio_preprocessing.so
 lib/libwifitest.so:vendor/lib/libwifitest.so
 lib/libwpa_client.so:vendor/lib/libwpa_client.so
-lib/modules/ufsd.ko:vendor/lib/modules/ufsd.ko
 lib/soundfx/libaudiofx.so:vendor/lib/soundfx/libaudiofx.so
 lib64/drm/libdrmmtkplugin.so:vendor/lib64/drm/libdrmmtkplugin.so
 lib64/hw/amzn_dha.mt8173.so:vendor/lib64/hw/amzn_dha.mt8173.so
