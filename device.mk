@@ -145,7 +145,8 @@ PRODUCT_PACKAGES += \
     hostapd \
     wificond \
     wifilogd \
-    wpa_supplicant
+    wpa_supplicant \
+    libnetutils
 
 PRODUCT_COPY_FILES += \
     $(DEVICE)/wifi/wpa_supplicant.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant.conf \
