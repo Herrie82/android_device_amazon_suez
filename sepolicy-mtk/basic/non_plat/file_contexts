@@ -354,6 +354,11 @@
 /dev/hwmsensor(/.*)? u:object_r:hwmsensor_device:s0
 /dev/msensor(/.*)? u:object_r:msensor_device:s0
 /dev/biometric(/.*)? u:object_r:biometric_device:s0
+
+# md32 program and data files
+/md32_p.bin               u:object_r:md32_file:s0
+/md32_d.bin               u:object_r:md32_file:s0
+
 ##########################
 # Sensor Devices Start
 #
