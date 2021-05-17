@@ -64,9 +64,10 @@ PRODUCT_COPY_FILES += \
     $(TOPDIR)frameworks/av/services/audiopolicy/config/usb_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usb_audio_policy_configuration.xml
 
 # Bluetooth
-PRODUCT_PACKAGES += \
-    libbt-vendor \
-    libbluetooth_mtk
+# FIXME: BT fails due missing libnvram
+# PRODUCT_PACKAGES += \
+#    libbt-vendor \
+#    libbluetooth_mtk
 
 # aptX encoder
 PRODUCT_COPY_FILES += \
