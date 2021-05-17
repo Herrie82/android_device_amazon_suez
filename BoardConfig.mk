@@ -8,6 +8,11 @@ TARGET_SPECIFIC_HEADER_PATH := $(DEVICE)/include
 # inherit from the proprietary version
 -include $(VENDOR)/BoardConfigVendor.mk
 
+# Halium requires BOARD_BUILD_SYSTEM_ROOT_IMAGE for non-Treble devices
+BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
+
+BOARD_ROOT_EXTRA_FOLDERS += firmware persist
+
 # Platform
 TARGET_BOARD_PLATFORM := mt8173
 
