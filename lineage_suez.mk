@@ -15,7 +15,10 @@
 #
 
 # Inherit some common Lineage stuff.
-$(call inherit-product-if-exists, vendor/lineage/config/common_full_tablet_wifionly.mk)
+# $(call inherit-product-if-exists, vendor/lineage/config/common_full_tablet_wifionly.mk)
+
+# Only build halium bits
+$(call inherit-product, $(SRC_TARGET_DIR)/product/halium.mk)
 
 # Inherit from suez device
 $(call inherit-product, device/amazon/suez/full_suez.mk)
